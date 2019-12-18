@@ -4,10 +4,10 @@ Give the way to crack Burp Suite Professional 2.* and launch it as a Mac OS X ap
 
 ## 准备所需文件
 
-1. 下载Burp Suite Professional 2.1.06 jar包和loader文件
+1. 下载Burp Suite Professional 2.1.06 jar包、loader文件和图标
 - [burpsuite_pro_v2.1.06.jar](https://github.com/Mr-xn/BurpSuite-collections/releases/download/2.1.06/burpsuite_pro_v2.1.06.jar)  - `MD5: fe961272897736d37a2eab4cdb048416`
 - [burp-loader-keygen-2_1_06.jar](https://github.com/Mr-xn/BurpSuite-collections/releases/download/2.1.06/burp-loader-keygen-2_1_06.jar)
-
+- [app.icns图标文件](https://github.com/
 
 2. 使用以下命令安装[jar2app](https://github.com/Jorl17/jar2app)，Cartalina需要安装到/usr/local/bin目录
 
@@ -20,7 +20,7 @@ $ sudo ./install.sh /usr/local/bin
 
 ## 进行app转换
 
-1. 使用jar2app将jar文件转换成app，并设置包名称、菜单显示名称、传统菜单、以及loader参数
+1. 使用jar2app将jar文件转换成app，并设置图标、包名称、菜单显示名称、传统菜单、以及loader参数
 ```bash
 $ cd /path/to/*burpsuite_pro_v2.1.06.jar所在位置*
 $ jar2app -i app.icns burpsuite_pro_v2.1.06.jar -j "-noverify -Xbootclasspath/p:/\$APP_ROOT/Contents/Java/burp-loader-keygen-2_1_06.jar" -o -n "Burp Suite Professional" Burp\ Suite\ Professional
