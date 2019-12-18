@@ -2,6 +2,9 @@
 Give the way to crack Burp Suite Professional 2.* and launch it as a Mac OS X app.
 破解Burp Suite Professional并在mac内用app方式启动
 
+![Screen Shot](https://github.com/jaredlew/BurpSuite-jar2app-mac/raw/master/Burp%20Suite%20Professional%202.1.06/Screen%20Shot.png)
+
+
 ## 准备所需文件
 
 1. 下载Burp Suite Professional 2.1.06 jar包、loader文件和图标
@@ -33,3 +36,4 @@ $ cp /path/to/*burpsuite_pro_v2.1.06.jar所在位置* /path/to/*生成的Burp Su
 
 ## 进行破解
 至此app封装完成，将程序复制到mac应用程序文件夹内，按照标准操作进行注册即可，注册过程可以参考[四爷的文档](http://scz.617.cn:8/misc/201910151519.txt)，之后无需命令行引导程序，直接双击就可以启动burpsuite了。
+
