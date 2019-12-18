@@ -1,5 +1,6 @@
 # BurpSuite-jar2app-mac
 Give the way to crack Burp Suite Professional 2.* and launch it as a Mac OS X app.
+破解Burp Suite Professional并在mac内用app方式启动
 
 ## 准备所需文件
 
